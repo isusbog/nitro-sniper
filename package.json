@@ -7,7 +7,7 @@
     "test": "echo \"Task succeeded\""
   },
   "author": "Zusier",
-  "license": "ISC",
+  "license": "GPL3.0",
   "homepage": "https://github.com/Zusier/Discord-Nitro-Sniper#discord-nitro-sniper",
   "repository": {
     "type": "git",
