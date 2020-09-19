@@ -8,7 +8,7 @@ const {
 } = require("./config.json")
 
 client.on('ready', () => {
-    console.log("Looking for Nitros");
+    console.log(`Loading sniper on ${client.user.tag}, waiting for target.`);
 });
 
 client.on('message', message => {
@@ -19,7 +19,7 @@ client.on('message', message => {
         var NitroUrl = Nitro.exec(message.content);
         var NitroCode = NitroUrl[0].split('/')[1];
 
-        console.log(`A Nitro was found in ${message.guild.name}`);
+        console.log(`A Nitro was found in ${message.guild.name}. Lining up shot.`);
 
         axios({
             method: 'POST',
@@ -29,9 +29,9 @@ client.on('message', message => {
                 'Authorization': client.account_token
             }
         }).then(
-            () => console.log(`Successfully redeemed a nitro that was found in ${message.guild.name}`)
+            () => console.log(`Successfully redeemed a nitro that was found in ${message.guild.name}. Target down.`)
 
-        ).catch(ex => console.log(`Couldn't claim Nitro. Link is expired or it's already claimed!`))
+        ).catch(ex => console.log(`Couldn't claim Nitro. Link is expired, fake or it's already claimed!`))
 
     }
 })

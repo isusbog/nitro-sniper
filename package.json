@@ -1,15 +1,32 @@
 {
-  "name": "discordnitrosniper",
-  "version": "1.0.0",
-  "description": "Autom claims Nitro's",
+  "name": "nitro-sniper",
+  "version": "1.0.1",
+  "description": "Auto claims Discord Nitros",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Task succeeded\""
   },
-  "author": "Revoked To Protect Author",
+  "author": "Zusier",
   "license": "ISC",
+  "homepage": "https://github.com/Zusier/Discord-Nitro-Sniper#discord-nitro-sniper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zusier/Discord-Nitro-Sniper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zusier/Discord-Nitro-Sniper/issues"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "discord.js": "^11.6.4"
-  }
+  },
+  "engines": {
+    "npm": ">=14.0.0",
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "discord",
+    "nitro"
+  ]
 }
