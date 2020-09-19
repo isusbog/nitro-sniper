@@ -1,13 +1,13 @@
 {
   "name": "nitro-sniper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Auto claims Discord Nitros",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Task succeeded\""
   },
   "author": "Zusier",
-  "license": "GPL3.0",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/Zusier/nitro-sniper#welcome-to-nitro-sniper-",
   "repository": {
     "type": "git",
@@ -21,8 +21,8 @@
     "discord.js": "^11.6.4"
   },
   "engines": {
-    "npm": ">=14.0.0",
-    "node": ">=6.0.0"
+    "npm": ">=6.0.0",
+    "node": ">=14.0.0"
   },
   "devDependencies": {},
   "keywords": [
