@@ -118,3 +118,4 @@ dist
 # custom entries
 package-lock.json
 workflow.md
+**\node_modules
