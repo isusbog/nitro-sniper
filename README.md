@@ -39,6 +39,7 @@ git clone https://github.com/Zusier/nitro-sniper.git
 ```sh
 cd nitro-sniper
 ```
+edit *config.json* and put your discord token there (KEEP PRIVATE)
 ```sh
 node index
 ```
