@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/npm-%3E%3D14.0.0-blue.svg" />
   <img src="https://img.shields.io/badge/node-%3E%3D6.0.0-blue.svg" />
   <a href="https://github.com/Zusier/nitro-sniper/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no-green.svg" />
   </a>
   <a href="https://github.com/Zusier/nitro-sniper/blob/master/LICENSE" target="_blank">
     <img alt="License: GPL3.0" src="https://img.shields.io/github/license/Zusier/nitro-sniper" />
